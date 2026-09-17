@@ -1,0 +1,10 @@
+services:
+  product-service:
+    build: ./product-service
+    ports:
+      - "3002:3002"
+
+  student-service:
+    build: ./student-service
+    ports:
+      - "3001:3001"
